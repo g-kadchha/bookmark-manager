@@ -1,0 +1,88 @@
+.bookmark-list {
+  width: 100%;
+  height: 60px;
+  background-color: #2f2f2f;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.bookmark-list h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bookmark-content {
+  display: grid;
+  margin-right: 14px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bookmark-icon {
+  color: #cfeeff;
+  font-size: 20px;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+}
+
+.bookmark-list-item {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 20px;
+  align-items: center;
+  background-color: #d7c2d3;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bookmark-list-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bookmark-list-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #242370;
+  font-weight: 500;
+}
+
+.bookmark-list-item a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  margin-left: 280px;
+}
+
+.dlt-icon {
+  color: #d72b39;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.edt-icon {
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.search-input {
+  width: 280px;
+  border-radius: 4px;
+  border: 1px solid #0e0c0c;
+  outline: none;
+  font-size: 20px;
+  margin-left: 700px;
+}
