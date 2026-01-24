@@ -1,18 +1,16 @@
 import React from 'react'
-import '../styles/Header.css'
+import "../styles/Header.css"
 
-function header() {
+function HeaderTest() {
   return (
-
-           <>
+         <>
        <div className="header">
             <h2>Your Personal Bookmark Organizer</h2>
             <p>Save and manage your favorite links</p>
        </div>
     </>
       
-    
   )
 }
 
-export default header
+export default HeaderTest
